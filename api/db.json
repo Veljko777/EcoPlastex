@@ -1,0 +1,376 @@
+{
+    "proizvodi":[
+        {
+        "id":"001",
+        "tag":"-papirna-kesa-sa-unutrasnjom-ravnom-ruckom-22+10x28cm",
+        "kategorija":"pk unutrasnja",
+        "naziv":"Papirna kesa sa ravnom unutrašnjom ručkom S bag ",
+        "opis":"Papirne ili natron kese zauzimaju sve veću primenu. Očuvanje okoline, praktičnost i udobnost za nošenje zbog ravne ručke su glavne karakteristike ovog proizvoda. Vršimo i štampanje logotipa na svim vrstama papirnih kesa koje imamo u ponudi.",
+        "img":"/images/kesaravnaiznutra4.jpg",
+        "dimenzija":"22+10x28 cm",
+        "materijal":"80gr braon / 70gr beli kraft papir",
+        "boja":"braon, bela",
+        "tiraz":"do 5000 komada"   
+        },
+        {
+        "id":"002",
+        "tag":"-papirna-kesa-sa-unutrasnjom-ravnom-ruckom-26+17x28cm",
+        "kategorija":"pk unutrasnja",
+        "naziv":"Papirna kesa sa ravnom unutrašnjom ručkom M bag",
+        "opis":"Papirne ili natron kese zauzimaju sve veću primenu. Očuvanje okoline, praktičnost i udobnost za nošenje zbog ravne ručke su glavne karakteristike ovog proizvoda. Vršimo i štampanje logotipa na svim vrstama papirnih kesa koje imamo u ponudi.",
+        "img":"/images/kesaravnaiznutra4.jpg",
+        "dimenzija":"26+17x28 cm",
+        "materijal":"80gr braon / 70gr beli kraft papir",
+        "boja":"braon, bela",
+        "tiraz":"do 5000 komada"   
+        },
+        {
+        "id":"003",
+        "tag":"-papirna-kesa-sa-unutrasnjom-ravnom-ruckom-26+14x32cm",
+        "kategorija":"pk unutrasnja",
+        "naziv":"Papirna kesa sa ravnom unutrašnjom ručkom L bag",
+        "opis":"Papirne ili natron kese zauzimaju sve veću primenu. Očuvanje okoline, praktičnost i udobnost za nošenje zbog ravne ručke su glavne karakteristike ovog proizvoda. Vršimo i štampanje logotipa na svim vrstama papirnih kesa koje imamo u ponudi.",
+        "img":"/images/kesaravnaiznutra4.jpg",
+        "dimenzija":"26+14x32 cm",
+        "materijal":"80gr braon / 70gr beli kraft papir",
+        "boja":"braon, bela",
+        "tiraz":"do 5000 komada"   
+        },
+        {
+        "id":"004",
+        "tag":"-papirna-kesa-sa-unutrasnjom-ravnom-ruckom-32+17x27cm",
+        "kategorija":"pk unutrasnja",
+        "naziv":"Papirna kesa sa ravnom unutrašnjom ručkom XL bag",
+        "opis":"Papirne ili natron kese zauzimaju sve veću primenu. Očuvanje okoline, praktičnost i udobnost za nošenje zbog ravne ručke su glavne karakteristike ovog proizvoda. Vršimo i štampanje logotipa na svim vrstama papirnih kesa koje imamo u ponudi.",
+        "img":"/images/kesaravnaiznutra4.jpg",
+        "dimenzija":"32+17x27 cm",
+        "materijal":"80gr braon / 70gr beli kraft papir",
+        "boja":"braon, bela",
+        "tiraz":"do 5000 komada"   
+        },
+        {
+        "id":"005",
+        "tag":"-papirna-kesa-sa-unutrasnjom-ravnom-ruckom-36+16x39cm",
+        "kategorija":"pk unutrasnja",
+        "naziv":"Papirna kesa sa ravnom unutrašnjom ručkom XXL bag",
+        "opis":"Papirne ili natron kese zauzimaju sve veću primenu. Očuvanje okoline, praktičnost i udobnost za nošenje zbog ravne ručke su glavne karakteristike ovog proizvoda. Vršimo i štampanje logotipa na svim vrstama papirnih kesa koje imamo u ponudi.",
+        "img":"/images/kesaravnaiznutra4.jpg",
+        "dimenzija":"36+16x39 cm",
+        "materijal":"80gr braon / 70gr beli kraft papir",
+        "boja":"braon, bela",
+        "tiraz":"do 5000 komada"   
+        },
+
+
+
+
+
+
+        {
+        "id":"101",
+        "tag":"-papirna-kesa-saspoljasnjom-ravnom-ruckom-18+8x22cm",
+        "kategorija":"pk spoljasnja",
+        "naziv":"Papirna kesa sa ravnom spoljašnjom ručkom S bag",
+        "opis":"Papirne ili natron kese zauzimaju sve veću primenu. Očuvanje okoline, praktičnost i udobnost za nošenje zbog ravne ručke su glavne karakteristike ovog proizvoda. Vršimo i štampanje logotipa na svim vrstama papirnih kesa koje imamo u ponudi.",
+        "img":"/images/kesaravnaspolja1.jpg",
+        "dimenzija":"18+8x22 cm",
+        "materijal":"70gr braon / 70gr beli kraft papir",
+        "boja":"braon, bela",
+        "tiraz":"do 5000 komada" 
+        },
+        {
+        "id":"102",
+        "tag":"-papirna-kesa-saspoljasnjom-ravnom-ruckom-22+11x28cm",
+        "kategorija":"pk spoljasnja",
+        "naziv":"Papirna kesa sa ravnom spoljašnjom ručkom M bag",
+        "opis":"Papirne ili natron kese zauzimaju sve veću primenu. Očuvanje okoline, praktičnost i udobnost za nošenje zbog ravne ručke su glavne karakteristike ovog proizvoda. Vršimo i štampanje logotipa na svim vrstama papirnih kesa koje imamo u ponudi.",
+        "img":"/images/kesaravnaspolja1.jpg",
+        "dimenzija":"22+11x28 cm",
+        "materijal":"70gr braon / 70gr beli kraft papir",
+        "boja":"braon, bela",
+        "tiraz":"do 5000 komada" 
+        },
+        {
+        "id":"103",
+        "tag":"-papirna-kesa-saspoljasnjom-ravnom-ruckom-25+14x30cm",
+        "kategorija":"pk spoljasnja",
+        "naziv":"Papirna kesa sa ravnom spoljašnjom ručkom L bag",
+        "opis":"Papirne ili natron kese zauzimaju sve veću primenu. Očuvanje okoline, praktičnost i udobnost za nošenje zbog ravne ručke su glavne karakteristike ovog proizvoda. Vršimo i štampanje logotipa na svim vrstama papirnih kesa koje imamo u ponudi.",
+        "img":"/images/kesaravnaspolja1.jpg",
+        "dimenzija":"25+14x30 cm",
+        "materijal":"70gr braon / 70gr beli kraft papir",
+        "boja":"braon, bela",
+        "tiraz":"do 5000 komada" 
+        },
+
+
+
+
+
+
+        {
+        "id":"201",
+        "tag":"-papirna-kesa-sa-upredenom-ruckom",
+        "kategorija":"pk upredena",
+        "naziv":"pk upredena",
+        "opis":"Papirne ili natron kese zauzimaju sve veću primenu. Očuvanje okoline, praktičnost i udobnost za nošenje zbog upredene ručke su glavne karakteristike ovog proizvoda. Vršimo i štampanje logotipa na svim vrstama papirnih kesa koje imamo u ponudi.",
+        "img":"",
+        "dimenzija":"",
+        "materijal":"kraft papir",
+        "boja":"braon, bela",
+        "tiraz":" do 5000 komada" 
+        },
+
+
+
+
+
+
+
+        {
+        "id":"301",
+        "tag":"-papirna-kesa-bez-rucke18+11x34cm",
+        "kategorija":"pk bez rucke",
+        "naziv":"Papirna kesa bez ručke",
+        "opis":"Papirne ili natron kese zauzimaju sve veću primenu. Očuvanje okoline i praktičnost su glavne karakteristike ovog proizvoda. Vršimo i štampanje logotipa na svim vrstama papirnih kesa koje imamo u ponudi.",
+        "img":"/images/kesabezrucke4.jpg",
+        "dimenzija":"18+11x34cm",
+        "materijal":"kraft papir",
+        "boja":"braon, bela",
+        "tiraz":"do 5000 komada" 
+        },
+        {
+        "id":"302",
+        "tag":"-papirna-kesa-bez-rucke22+12x34cm",
+        "kategorija":"pk bez rucke",
+        "naziv":"Papirna kesa bez ručke",
+        "opis":"Papirne ili natron kese zauzimaju sve veću primenu. Očuvanje okoline i praktičnost su glavne karakteristike ovog proizvoda. Vršimo i štampanje logotipa na svim vrstama papirnih kesa koje imamo u ponudi.",
+        "img":"/images/kesabezrucke1.jpg",
+        "dimenzija":"22+12x34cm",
+        "materijal":"kraft papir",
+        "boja":"braon, bela",
+        "tiraz":"do 5000 komada" 
+        },
+        {
+        "id":"303",
+        "tag":"-papirna-kesa-bez-rucke32+16x38cm",
+        "kategorija":"pk bez rucke",
+        "naziv":"Papirna kesa bez ručke",
+        "opis":"Papirne ili natron kese zauzimaju sve veću primenu. Očuvanje okoline i praktičnost su glavne karakteristike ovog proizvoda. Vršimo i štampanje logotipa na svim vrstama papirnih kesa koje imamo u ponudi.",
+        "img":"/images/kesabezrucke3.jpg",
+        "dimenzija":"32+16x38cm",
+        "materijal":"kraft papir",
+        "boja":"braon, bela",
+        "tiraz":"do 5000 komada" 
+        },
+       
+
+
+
+
+
+
+        {
+        "id":"401",
+        "tag":"-pica-kutija-240x240x40mm",
+        "kategorija":"pica kutija",
+        "naziv":"Pica kutija '24' ",
+        "opis":"Kvalitetna izrada kutija za pice od dovoljno čvrstog materijala da izdrži svaku picu",
+        "img":"/images/picakutija1.jpg",
+        "dimenzija":"240x240x40 mm",
+        "materijal":"",
+        "boja":"",
+        "tiraz":"do 5000 komada" 
+        },
+        {
+        "id":"402",
+        "tag":"-pica-kutija-260x260x40mm",
+        "kategorija":"pica kutija",
+        "naziv":"Pica kutija '26' ",
+        "opis":"Kvalitetna izrada kutija za pice od dovoljno čvrstog materijala da izdrži svaku picu",
+        "img":"/images/picakutija1.jpg",
+        "dimenzija":"260x260x40 mm",
+        "materijal":"",
+        "boja":"",
+        "tiraz":"do 5000 komada" 
+        },
+        {
+        "id":"403",
+        "tag":"-pica-kutija-320x320x40mm",
+        "kategorija":"pica kutija",
+        "naziv":"Pica kutija '32' ",
+        "opis":"Kvalitetna izrada kutija za pice od dovoljno čvrstog materijala da izdrži svaku picu",
+        "img":"/images/picakutija1.jpg",
+        "dimenzija":"320x320x40 mm",
+        "materijal":"",
+        "boja":"",
+        "tiraz":"do 5000 komada" 
+        },
+        {
+        "id":"404",
+        "tag":"-pica-kutija-420x420x40mm",
+        "kategorija":"pica kutija",
+        "naziv":"Pica kutija '42' ",
+        "opis":"Kvalitetna izrada kutija za pice od dovoljno čvrstog materijala da izdrži svaku picu",
+        "img":"/images/picakutija1.jpg",
+        "dimenzija":"420x420x40 mm",
+        "materijal":"",
+        "boja":"",
+        "tiraz":"do 5000 komada" 
+        },
+        {
+        "id":"405",
+        "tag":"-pica-kutija-520x520x40mm",
+        "kategorija":"pica kutija",
+        "naziv":"Pica kutija '52' ",
+        "opis":"Kvalitetna izrada kutija za pice od dovoljno čvrstog materijala da izdrži svaku picu",
+        "img":"/images/picakutija1.jpg",
+        "dimenzija":"520x520x40 mm",
+        "materijal":"",
+        "boja":"",
+        "tiraz":"do 5000 komada" 
+        },
+
+
+
+
+
+
+
+        {
+        "id":"501",
+        "tag":"-pvc-kesa-1-6kg",
+        "kategorija":"pvc kese",
+        "naziv":"PVC kese  ",
+        "opis":"",
+        "img":"/images/pvckese2.jpg",
+        "dimenzija":"220(2x55)x370 mm",
+        "kapacitet":"1,6kg",
+        "materijal":"PVC",
+        "boja":"plava, bela, žuta, crvena",
+        "tiraz":"do 5000 komada" 
+        },
+        {
+        "id":"502",
+        "tag":"-pvc-kesa-2kg",
+        "kategorija":"pvc kese",
+        "naziv":"PVC kese  ",
+        "opis":"",
+        "img":"/images/pvckese2.jpg",
+        "dimenzija":"220(2x60)x440 mm",
+        "kapacitet":"2 kg",
+        "materijal":"PVC",
+        "boja":"plava, bela, žuta, crvena",
+        "tiraz":"do 5000 komada" 
+        },
+        {
+        "id":"503",
+        "tag":"-pvc-kesa-3-8kg",
+        "kategorija":"pvc kese",
+        "naziv":"PVC kese  ",
+        "opis":"",
+        "img":"/images/pvckese2.jpg",
+        "dimenzija":"280(2x70)x500 mm",
+        "kapacitet":"3,8kg",
+        "materijal":"PVC",
+        "boja":"plava, bela, žuta, crvena",
+        "tiraz":"do 5000 komada" 
+        },
+        {
+        "id":"504",
+        "tag":"-pvc-kesa-4-2kg",
+        "kategorija":"pvc kese",
+        "naziv":"PVC kese  ",
+        "opis":"",
+        "img":"/images/pvckese2.jpg",
+        "dimenzija":"280(2x70)x530 mm",
+        "kapacitet":"4,2kg",
+        "materijal":"PVC",
+        "boja":"plava, bela, žuta, crvena",
+        "tiraz":"do 5000 komada" 
+        },
+        {
+        "id":"505",
+        "tag":"-pvc-kesa-5-5kg",
+        "kategorija":"pvc kese",
+        "naziv":"PVC kese  ",
+        "opis":"",
+        "img":"/images/pvckese2.jpg",
+        "dimenzija":"280(2x75)x570 mm",
+        "kapacitet":"5,5kg",
+        "materijal":"PVC",
+        "boja":"plava, bela, žuta, crvena",
+        "tiraz":"do 5000 komada" 
+        },
+
+
+
+
+
+
+
+
+
+        {
+        "id":"601",
+        "tag":"-pvc-vreca-1100x550mm-115g",
+        "kategorija":"pvc vrece",
+        "naziv":"PVC vreće",
+        "opis":"",
+        "img":"/images/pvcvrece3.jpg",
+        "dimenzija":"1100x550mm(115g)",
+        "materijal":"PVC",
+        "boja":"regenerat zelene",
+        "tiraz":"do 5000 komada" 
+        },
+        {
+        "id":"602",
+        "tag":"-pvc-vreca-1100x550mm-60g",
+        "kategorija":"pvc vrece",
+        "naziv":"PVC vreće",
+        "opis":"",
+        "img":"/images/pvcvrece3.jpg",
+        "dimenzija":"1100x550mm(60g)",
+        "materijal":"PVC",
+        "boja":"regenerat zelene",
+        "tiraz":"do 5000 komada" 
+        },
+        {
+        "id":"603",
+        "tag":"-pvc-vreca-1100x550mm-110g",
+        "kategorija":"pvc vrece",
+        "naziv":"PVC vreće",
+        "opis":"",
+        "img":"/images/pvcvrece1.jpg",
+        "dimenzija":"1100x550mm(110g)",
+        "materijal":"PVC",
+        "boja":"transparentna",
+        "tiraz":"do 5000 komada" 
+        },
+        {
+        "id":"604",
+        "tag":"-pvc-vreca-700x450mm-50g",
+        "kategorija":"pvc vrece",
+        "naziv":"PVC vreće",
+        "opis":"",
+        "img":"/images/pvcvrece1.jpg",
+        "dimenzija":"700x450mm(50g)",
+        "materijal":"PVC",
+        "boja":"transparentna",
+        "tiraz":"do 5000 komada" 
+        },
+        {
+        "id":"605",
+        "tag":"-pvc-vreca-850x450mm-65",
+        "kategorija":"pvc vrece",
+        "naziv":"PVC vreće",
+        "opis":"",
+        "img":"/images/pvcvrece1.jpg",
+        "dimenzija":"850x450mm(65g)",
+        "materijal":"PVC",
+        "boja":"transparentna",
+        "tiraz":"do 5000 komada" 
+        }
+    ]
+}
+
