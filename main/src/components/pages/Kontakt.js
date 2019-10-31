@@ -44,7 +44,6 @@ class Kontakt extends React.Component{
                             <li className="nav-item navItem ">
                             <Link className="nav-link" to="/papirnekesesastampom">PAPIRNE KESE SA ŠTAMPOM</Link>
                             </li>
-                            
                             <li className="nav-item dropdown navItem">
                             <p className="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 PAPIRNE KESE
@@ -72,7 +71,6 @@ class Kontakt extends React.Component{
                                 <Link className="dropdown-item" to="/pvcvrece">VREĆE</Link>
                             </div>
                             </li>
-                            
                             <li className="nav-item navItem">
                             <Link className="nav-link" id="active" to="/kontakt">KONTAKT</Link>
                             </li>
@@ -97,6 +95,12 @@ class Kontakt extends React.Component{
                                 <h4>Zapratite nas:</h4>
                                 <Link to="#" className="mr-3 "><i className="fa fa-facebook-square fa-2x" ></i></Link>
                                 <Link to="#" ><i className="fa fa-instagram fa-2x"></i></Link>   
+                                <div>
+                                <h4 className="mt-5">Kako do nas?</h4>
+                                </div>
+                                <div >
+                                    <iframe title="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d305783.222590058!2d19.170842401739094!3d44.59837021533418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475bdea822e494c9%3A0xc1bfe12c0bc1442c!2z0KHRgtGA0LDQttCwLCDQodGA0LHQuNGY0LA!5e0!3m2!1ssr!2sus!4v1572538435831!5m2!1ssr!2sus" width="400" height="400" frameBorder="0" style={{border:"0"}} allowFullScreen=""></iframe>
+                                </div>
                             </div>
                         </div>
                         <div className="col-md-5">
@@ -104,12 +108,9 @@ class Kontakt extends React.Component{
                             <ContactForm onSubmit={this.onSubmit}></ContactForm>
                         </div>
                     </div>
-                    <div>
-                        <h4 className="mt-5">Kako do nas?</h4>
-                        </div>
-                        <div>
-                        <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22716.031683188678!2d19.287100314350425!3d44.62761589705452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475bdea822e494c9%3A0xc1bfe12c0bc1442c!2z0KHRgtGA0LDQttCwLCDQodGA0LHQuNGY0LA!5e0!3m2!1ssr!2sus!4v1572427675501!5m2!1ssr!2sus" width="1100"  height="400" frameBorder="0" style={{border:"0"}} allowFullScreen=""></iframe>
-                        </div>
+                    <div className="message" >Poruka je poslata</div>
+                    <div className="name-input" >Unos brojeva nije dozvoljen</div>
+                    
                 </div>
                 <footer className="footer mt-5 ">
                     <div className="text-center ">

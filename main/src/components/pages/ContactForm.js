@@ -2,7 +2,13 @@ import React from "react";
 import {reset, Field, reduxForm} from "redux-form"
 
 
+
 class ContactForm extends React.Component{
+    onSubmit=(formValues,dispatch)=>{
+        this.props.onSubmit(formValues);
+        dispatch(reset("conectForm"))
+    }
+
     renderError({error, touched}){
         if(touched && error){
             return (
@@ -11,22 +17,53 @@ class ContactForm extends React.Component{
         }
     }
 
-    renderInput=({input,label,meta})=>{
-        const classname=` ${meta.error && meta.touched ? "": ""}`
+    
+    renderName=({input,label,meta})=>{
+        function preventNumbers(e){
+            let keyCode=(e.keyCode ? e.keyCode : e.which);
+            if((keyCode>47 && keyCode <58) || (keyCode>95 && keyCode<107)){
+                e.preventDefault();
+                
+                document.querySelector(".name-input").classList.add('name-input-message')
+                setTimeout(function(){
+                    document.querySelector(".name-input").classList.remove('name-input-message');
+                }, 2000)
+            }
+        }
         return(
-            <div className={classname}>
+            <div>
+                <label>{label}</label>
+                <input className="form-control " id="name-field" {...input} autoComplete="off" onKeyUp={preventNumbers} onKeyDown={preventNumbers}/>
+                {this.renderError(meta)}
+            </div>
+        )
+    }
+    renderInput=({input,label,meta})=>{
+        return(
+            <div>
                 <label>{label}</label>
                 <input className="form-control" {...input} autoComplete="off"/>
                 {this.renderError(meta)}
             </div>
         )
     }
-
-    onSubmit=(formValues,dispatch)=>{
-        this.props.onSubmit(formValues);
-        dispatch(reset("conectForm"))
-        
-        
+    renderEmail=({input,label,meta})=>{
+        return(
+            <div>
+                <label>{label}</label>
+                <input placeholder="email@example.com" type="email" className="form-control" {...input} autoComplete="off"/>
+                {this.renderError(meta)}
+            </div>
+        )
+    }
+    renderTextarea=({input,label,meta})=>{
+        return(
+            <div>
+                <label>{label}</label>
+                <textarea rows="10" className="form-control" {...input} autoComplete="off"/>
+                {this.renderError(meta)}
+            </div>
+        )
     }
 
     render(){
@@ -34,24 +71,24 @@ class ContactForm extends React.Component{
             <form onSubmit={this.props.handleSubmit(this.onSubmit)} className="mb-3">
                 <div className="form-group">
                     
-                    <Field className="field" name="name" type="text"  component={this.renderInput} label="Vaše ime i prezime:*"/>
+                    <Field className="field" name="name"   component={this.renderName} label="Vaše ime i prezime:*"/>
                     
                 </div>
                 <div className="form-group">
-                    <Field className="field" name="email" type="email"  component={this.renderInput} label="Email:*"/>
+                    <Field className="field" name="email"   component={this.renderEmail} label="Email:*"/>
                 </div>
                 <div className="form-group">
-                    <Field className="field" name="phone" type="text"  component={this.renderInput} label="Telefon:"/>
+                    <Field className="field" name="phone"   component={this.renderInput} label="Telefon:"/>
                 </div>
                 <div className="form-group">
-                    <Field className="field" name="subject" type="text"  component={this.renderInput} label="Tema:*"/>
+                    <Field className="field" name="subject"   component={this.renderInput} label="Tema:*"/>
                 </div>
                 <div className="form-group">
-                    <Field className="textarea"  name="description" type="text"  component={this.renderInput} label="Poruka:*"></Field>
+                    <Field className="textarea"  name="description"   component={this.renderTextarea} label="Poruka:*"></Field>
                 </div>
                 <h6 className="m-2 p-1">* Obavezno polje</h6>
                 <button type="submit" className="btn submit-button mb-2">Pošalji poruku</button>
-                <div className="message" >Poruka je poslata</div>
+                
             </form>
         )
     }

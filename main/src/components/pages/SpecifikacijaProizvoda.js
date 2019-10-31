@@ -1,16 +1,12 @@
 import React from "react";
 import {connect} from "react-redux";
-import {fetchPost, fetchPosts} from "../../actions/index"
+import {fetchPosts} from "../../actions/index"
 import Footer from "./Footer"
 import {Link} from "react-router-dom"
 
 class SpecifikacijaProizvoda extends React.Component{
     componentDidMount(){
-        this.props.fetchPost(this.props.match.params.id);
         this.props.fetchPosts()
-        
-       
-        
     }
 
     renderOther(){
@@ -168,4 +164,4 @@ const mapStateToProps=(state,ownProps)=>{
      proizvodi:Object.values(state.proizvodi)}
 }
 
-export default connect(mapStateToProps,{fetchPost, fetchPosts}) (SpecifikacijaProizvoda);
+export default connect(mapStateToProps,{fetchPosts}) (SpecifikacijaProizvoda);
